@@ -8,8 +8,8 @@ The code can be easily extended for any dataset and experiments as well as for s
 
 | Ensemble Size M | Oracle Accuracy |
 | --------------- | --------------- |
-|     1           |      85.42      |
-|     2           |       89.71     |
-|     3           |       92.40     |
-|     4           |       93.11     |
-|     5           |       94.79     |
+|     1           |      95.42      |
+|     2           |       97.71     |
+|     3           |       98.11     |
+|     4           |       98.40     |
+|     5           |       98.79     |
