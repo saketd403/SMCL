@@ -16,7 +16,7 @@ from run_epochs import epoch_train, epoch_val
 def get_args():
     parser = argparse.ArgumentParser(description='Pytorch Detecting Out-of-distribution examples in neural networks')
     parser.add_argument('--lr',default=0.001,type=float,help="learning rate")
-    parser.add_argument('--epochs',default=100,type=int,help="Number of training epochs")
+    parser.add_argument('--epochs',default=50,type=int,help="Number of training epochs")
     parser.add_argument('--batch_size',default=32,type=int,help="Batch size")
     parser.add_argument('--K',default=1,type=int,help="Number of predictors to be considered")
     parser.add_argument('--M',default=5,type=int,help="Number of members in ensemble")
